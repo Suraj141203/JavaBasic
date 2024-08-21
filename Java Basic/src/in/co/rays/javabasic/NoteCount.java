@@ -18,8 +18,8 @@ public class NoteCount {
 			
 			count = rupees / notes[i];
 			if (count >0) {
-				System.out.println(notes[i] + "count =" + count);
-				
+				System.out.println(notes[i] + "  Notes = " + count);
+				scan.close();
 			}
 			rupees = rupees % notes[i];
 		}

@@ -18,6 +18,7 @@ public class ReverseNo {
 			temp = temp /10;
 		}
 		System.out.println("Reverse Number:  "+ sum);
+		sc.close();
 	}
 
 }
